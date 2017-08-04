@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}osgi-compendium
 Version:        6.0.0
-Release:        3.1%{?dist}
+Release:        3.2%{?dist}
 Summary:        Interfaces and Classes for use in compiling OSGi bundles
 License:        ASL 2.0
 URL:            http://www.osgi.org
@@ -82,6 +82,9 @@ mv META-INF/maven/org.osgi/osgi.cmpn/pom.xml .
 %license LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 6.0.0-3.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 6.0.0-3.1
 - Automated package import and SCL-ization
 
